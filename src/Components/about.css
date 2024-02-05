@@ -1,0 +1,15 @@
+
+.zoomed {
+    transition: height 0.5s ease-in-out;
+    height: 500px;
+  }
+  
+  .zoom-image {
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.1);
+  }
+  

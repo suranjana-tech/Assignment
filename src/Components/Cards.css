@@ -1,0 +1,26 @@
+/* Add this CSS to make the cards responsive */
+@media (min-width: 600px) {
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 599px) {
+    .cards-container {
+      display: block;
+    }
+  }
+
+.fade-in-card {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  transform: translateY(20px);
+}
+
+.fade-in-card:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transform: translateY(0);
+}
